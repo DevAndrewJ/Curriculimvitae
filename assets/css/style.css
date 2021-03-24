@@ -21,20 +21,20 @@ body {
 
 .divHi {
   margin-top: 80px;
-  margin-left: 80px;
+  margin-left: 250px;
 }
 .divJ {
-  margin-left: 100px;
+  margin-left: 260px;
 }
 
 .hHi {
   font-family: fantasy;
-  font-size: 45px;
+  font-size: 90px;
 }
 
 .hJ {
   font-family: fantasy;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .unityI {
@@ -43,6 +43,7 @@ body {
 }
 
 .divImg {
+  margin-top: 10px;
   width: 350px;
   display: flex;
   align-content: center;
@@ -56,26 +57,11 @@ body {
   font-size: 25px;
 }
 
-.imgAva {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
 #btnLearn {
   margin-right: 50px;
 }
 
-.divCab {
-  box-sizing: content-box;
-  margin-right: 0%;
-}
-
 #cabecera {
   float: left;
-  width: 400px;
-}
-
-#lateral {
-  width: 400px;
+  width: 550px;
 }
