@@ -9,17 +9,23 @@
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <div id="cabecera" class="divCab">
-       <div id="lateral"  class="divHi">
-           <h1 class="hHi">Hi</h1>
-        </div>        
-        <div id="lateral" class="divJ">
-            <h1 class="hJ">I'm Jeff</h1>
-        </div>
-     </div>
+
      <div class="divImg">
-        <img class="imgAva" src="assets/img/avatar.png" >
+         <div>
+             <img class="imgAva" src="assets/img/avatar.png" >
+         </div>
+         
     </div>
+    
+    <div>
+        <div class="divP"> 
+            <p class="centerP">Hi, I'm Jeff UX & GUI Designer</p>
+        </div>
+        <div class="divP">
+            <p>Web developer, Game developer, BI analyst & Great Coffe Make!</p>
+        </div>
+    </div>
+
 
     <div>
         <div>
@@ -29,30 +35,26 @@
                 <img src="assets/img/javascript-logo-156.png" class="imgJS">
                 <img src="assets/img/CSS-Logo.png" class="imgCSS">    
                 <img src="assets/img/bootstrap-logo-156.png" class="imgCSS">    
-                <!-- <img src="assets/img/react-logo-156.png"> -->
-                <!-- <img class= "unityI" src="assets/img/UnityIcon.png" class="imgCSS">     -->
-            </div>
-    <div class="divBtn">
-        <button id ="btnLearn" class = "btn btn-warning">Learn More</button>
-        <button id ="btnAbout" class = "btn btn-info">About me</button>
-    </div>   
-<!-- <div>
-    <form action="">
-        <div class="form">
-            <label for="nameL">nombre completo</label>
-            <input type="text" name="nameL" id="nameL"><br>
-        </div>
-        <div class="form">
-            <label for="mailF">Correo electronico</label>
-            <input type="email" name="mailF" id="mailF"><br>
-        </div>
-        <div class="form">
-            <label for="passF">Contraseña</label>
-            <input type="password" name="passF" id="passF"><br>
-        </div>
-    </form>
-</div> -->
+                <img src="assets/img/react-logo-156.png">
+                <img class= "unityI" src="assets/img/UnityIcon.png" class="imgCSS">    
+            </div>    
+    <h1 class="contact">Contact me</h1>  
 
+
+<div class="divForm">
+    <form>
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="fphar">Comment</label><br>
+        <input type="text" id="fphar" name="fphar">
+      </form>
+    </div>
+    
+    <div class="divBtn">
+        <button id="btnEnviar" type="submit" class="btn btn-primary">Enviar/Send</button>
+    </div>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
