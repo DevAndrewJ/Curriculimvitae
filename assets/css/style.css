@@ -3,6 +3,36 @@ body {
   background-color: whitesmoke;
 }
 
+.topNav{
+  background-color: rgb(29, 29, 29);
+  overflow: hidden;
+
+}
+
+.topNav a{
+  border-radius: 10px;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: #ff84c8;
+  color: black;
+
+}
+
 .contact{
 
   color: #000;
@@ -14,10 +44,19 @@ body {
   justify-content: center;
 }
 
+.par1{
+  font-weight: 500;
+  font-size: 80px;
+}
+
+.par2{
+  font-weight: 500;
+  font-size: 25px;
+}
+
 .h2C {
   color: #000;
-  margin: 20px;
-  font-weight: 100;
+  margin: 50px;
   font-family: fantasy;
   display: flex;
   align-content: center;
@@ -53,10 +92,6 @@ body {
   align-content: center;
   justify-content: center;
   font-size: 25px;
-}
-
-#btnEvniar{
-
 }
 
 #btnLearn {
