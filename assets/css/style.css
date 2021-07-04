@@ -46,8 +46,10 @@ p {
 .work {
     font-size: 50px;
     color: purple;
-    align-items: center;
+    text-align: center;
+    
 }
+
 
 
 
