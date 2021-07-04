@@ -5,14 +5,48 @@
 } 
 
 .top-nav {
-    background-color: gray;
+    background-color: grey;
 }
 
-.top-nav a {
-    margin-right: 10px;
+nav i {
+    color: white;
+    font-size: 32px;
+    margin-left: 10px;
+    font-style: normal;
+}
+
+nav a {
+    float: right;
+    margin-right:  15px;
+    color: white;
     text-decoration: none;
-    background-color: white;
-    border-radius: 4px;
+    background-color: blue;
+    font-size: 28px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.img-profile img {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.work {
+    font-size: 50px;
+    color: purple;
+    align-items: center;
 }
 
 
